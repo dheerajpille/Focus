@@ -1,0 +1,38 @@
+.header {
+    font-family: "Roboto";
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.menu {
+    font-family: "Roboto";
+    font-size: 1.25em;
+    font-weight: normal;
+    display: table-cell;
+}
+
+.options {
+    height: 2em;
+    width: 16em;
+    padding: 1em 1em 1em 1em;
+    background-color: ghostwhite;
+    box-shadow: 0 0.5em 1em 0 lightgray;
+    transition: 0.25s;
+}
+
+.options:hover {
+    box-shadow: 0 1em 2em 0 lightgray;
+}
+
+.card {
+    height: 4em;
+    width: 16em;
+    background-color: ghostwhite;
+    box-shadow: 0 0.5em 1em 0 lightgray;
+    transition: 0.5s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 1em 2em 0 lightgray;
+}
