@@ -72,16 +72,16 @@ ul {
     margin: 0;
     padding: 0;
     width: 15em;
-    background-color: lightcyan;
 }
 
 li a {
     display: block;
     color: darkslategray;
-    padding: 8px 16px;
-    text-decoration: none;
+    padding-left: 2.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     border-bottom: 0.125em solid royalblue;
-    transition: 0.025s;
+    transition: 0.5s;
 }
 
 li a.active {
@@ -89,9 +89,8 @@ li a.active {
     color: ghostwhite;
 }
 
-li a:hover:not(.active) {
-    background-color: lightsteelblue;
-    color: ghostwhite;
+li a:hover {
+    padding-left: 5em;
 }
 
 .item {
