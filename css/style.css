@@ -60,13 +60,14 @@ p {
 .nav {
     float: left;
     padding-right: 5em;
+    height: 100%;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 15em;
     background-color: #f1f1f1;
 }
 
@@ -75,14 +76,22 @@ li a {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    border-bottom: 0.0625em solid royalblue;
+    transition: 0.25s;
 }
 
 li a.active {
-    background-color: #4CAF50;
+    background-color: royalblue;
     color: white;
 }
 
 li a:hover:not(.active) {
-    background-color: #555;
+    background-color: lightsteelblue;
     color: white;
+}
+
+.item {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: oblique;
 }
