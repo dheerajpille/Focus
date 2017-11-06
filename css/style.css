@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 a {
     display: block;
     text-decoration: none;
@@ -57,7 +61,7 @@ p {
     background-color: ghostwhite;
 }
 
-.nav {
+.navbar {
     float: left;
     padding-right: 5em;
     height: 100%;
@@ -68,30 +72,40 @@ ul {
     margin: 0;
     padding: 0;
     width: 15em;
-    background-color: #f1f1f1;
+    background-color: lightcyan;
 }
 
 li a {
     display: block;
-    color: #000;
+    color: darkslategray;
     padding: 8px 16px;
     text-decoration: none;
-    border-bottom: 0.0625em solid royalblue;
-    transition: 0.25s;
+    border-bottom: 0.125em solid royalblue;
+    transition: 0.025s;
 }
 
 li a.active {
-    background-color: royalblue;
-    color: white;
+    background-color: steelblue;
+    color: ghostwhite;
 }
 
 li a:hover:not(.active) {
     background-color: lightsteelblue;
-    color: white;
+    color: ghostwhite;
 }
 
 .item {
     font-size: 1.25em;
     font-weight: bold;
-    font-style: oblique;
+    font-style: italic;
+}
+
+.content {
+    height: 100%;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
 }
