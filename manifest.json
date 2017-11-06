@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Focus",
+  "description": "Lightweight productivity extensions",
+  "version": "1.0",
+  "homepage_url": "https://github.com/dheerajpille/Focus",
+  "author": "Dheeraj Pille",
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
