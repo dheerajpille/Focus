@@ -1,27 +1,36 @@
+a {
+    display: block;
+    text-decoration: none;
+}
+
+p {
+    font-family: Roboto;
+}
+
 .header {
-    font-family: "Roboto";
     font-size: 2em;
     font-weight: bold;
 }
 
 .menu {
-    font-family: "Roboto";
-    font-size: 1.25em;
-    font-weight: normal;
-    display: table-cell;
-}
-
-.options {
     height: 2em;
     width: 16em;
+    text-decoration:none;
     padding: 1em 1em 1em 1em;
-    background-color: ghostwhite;
+    background-color: antiquewhite;
     box-shadow: 0 0.5em 1em 0 lightgray;
     transition: 0.25s;
 }
 
-.options:hover {
+.menu:hover {
     box-shadow: 0 1em 2em 0 lightgray;
+}
+
+.options {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: darkslategray;
+    display: table-cell;
 }
 
 .card {
