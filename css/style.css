@@ -1,8 +1,18 @@
 html, body {
     height: 100%;
-    text-decoration: none;
+    background-color: ghostwhite;
 }
 
+a {
+    text-decoration: none !important;
+    transition: 0.25s;
+}
+
+.github {
+    position: absolute;
+    bottom: 25%;
+    right: 7.5%;
+}
 
 .header {
     font-size: 2em;
@@ -20,7 +30,6 @@ html, body {
     width: 15em;
     padding: 1.5em 1.5em 1.5em 1.5em;
     background-color: antiquewhite;
-    text-decoration: none;
     border-radius: 0.25em;
     box-shadow: 0 0.5em 0 0 lightslategrey;
     transition: 0.25s;
@@ -36,15 +45,6 @@ html, body {
     font-weight: bold;
     color: darkslategray;
     display: table-cell;
-}
-
-h4 {
-}
-
-.github {
-    position: absolute;
-    bottom: 25%;
-    right: 7.5%;
 }
 
 .settings {
