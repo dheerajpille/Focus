@@ -3,13 +3,8 @@ html, body {
 }
 
 
-a {
-    display: block;
-    text-decoration: none;
-}
-
-p {
-    font-family: Roboto;
+h2 {
+    font-family: "Glyphicons Halflings";
 }
 
 .header {
@@ -24,37 +19,29 @@ p {
     margin: 0;
 }
 
-.menu {
-    height: 2em;
+.card {
+    height: 5em;
     width: 16em;
-    text-decoration:none;
-    padding: 1em 1em 1em 1em;
+    padding: 2em 2em 2em 2em;
     background-color: antiquewhite;
-    box-shadow: 0 0.5em 1em 0 lightgray;
+    text-decoration: none;
+    box-shadow: 0 0.5em 1em 0 lightslategrey;
     transition: 0.25s;
 }
 
-.menu:hover {
-    box-shadow: 0 1em 2em 0 lightgray;
+.card:hover {
+    text-decoration: none;
+    box-shadow: 0 1em 2em 0 lightslategray;
 }
 
-.options {
+.option {
     font-size: 1.25em;
     font-weight: bold;
     color: darkslategray;
     display: table-cell;
 }
 
-.card {
-    height: 4em;
-    width: 16em;
-    background-color: ghostwhite;
-    box-shadow: 0 0.5em 1em 0 lightgray;
-    transition: 0.5s;
-}
-
-.card:hover {
-    box-shadow: 0 1em 2em 0 lightgray;
+h4 {
 }
 
 .github {
