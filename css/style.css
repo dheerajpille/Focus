@@ -2,6 +2,7 @@ html, body {
     height: 100%;
 }
 
+
 a {
     display: block;
     text-decoration: none;
@@ -14,6 +15,13 @@ p {
 .header {
     font-size: 2em;
     font-weight: bold;
+}
+
+.subheader {
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
 }
 
 .menu {
@@ -89,8 +97,8 @@ li a.active {
     color: ghostwhite;
 }
 
-li a:hover {
-    padding-left: 5em;
+li a:not(.active):hover {
+    padding-left: 4em;
 }
 
 .item {
@@ -106,5 +114,5 @@ li a:hover {
 .title {
     font-size: 2em;
     font-weight: bold;
-    margin: 0;
+    margin-top: 0;
 }
