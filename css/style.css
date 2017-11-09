@@ -19,7 +19,8 @@ li a {
     padding-left: 2.5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    border-bottom: 0.125em solid royalblue;
+    border: 0.1em solid royalblue;
+    border-bottom: 0.25em solid royalblue;
     transition: 0.5s;
 }
 
