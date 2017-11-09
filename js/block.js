@@ -15,7 +15,7 @@ $(document).ready(function(){
                     '<br>' +
                     '<div class="text-center">' +
                     '<i class="glyphicon glyphicon-eye-close" style="font-size: 10em;"></i>' +
-                    '<h3>This website is blocked.</h3>' +
+                    '<h4>This website is blocked.</h4>' +
                     '</div>'
                 );
             }
