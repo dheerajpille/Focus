@@ -5,8 +5,9 @@ $(document).ready(function(){
             $('textarea').val(values);
         });
         $('button').on('click',function(){
-            var sites = $('textarea')[0].value.replace(/\s+/g,' ').replace(/>(\s)</g,'>\n<').split(/\s+/);
+            var sites = $('textarea')[0].value.replace(/\s+/g,' ').replace(/>(\s)</g,'>\n<').toLowerCase().split(/\s+/);
             chrome.storage.local.set({'sites': sites});
+            location.reload();
         });
     } else if ($('div.col-xs-6 ul').get(0)) {
         chrome.storage.local.get('sites', function(result){
