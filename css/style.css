@@ -8,22 +8,19 @@ a {
     transition: 0.25s;
 }
 
-.github {
-    position: absolute;
-    bottom: 25%;
-    right: 7.5%;
-}
-
-.header {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.subheader {
-    font-size: 1.5em;
-    font-weight: normal;
-    font-style: italic;
+ul {
     margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: darkslategray;
+    padding-left: 2.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.125em solid royalblue;
+    transition: 0.5s;
 }
 
 .card {
@@ -45,58 +42,4 @@ a {
     font-weight: bold;
     color: darkslategray;
     display: table-cell;
-}
-
-.settings {
-    margin-left: 10em;
-    margin-right: 10em;
-    background-color: ghostwhite;
-}
-
-.navbar {
-    float: left;
-    padding-right: 5em;
-    height: 100%;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 15em;
-}
-
-li a {
-    display: block;
-    color: darkslategray;
-    padding-left: 2.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    border-bottom: 0.125em solid royalblue;
-    transition: 0.5s;
-}
-
-li a.active {
-    background-color: steelblue;
-    color: ghostwhite;
-}
-
-li a:not(.active):hover {
-    padding-left: 4em;
-}
-
-.item {
-    font-size: 1.25em;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.content {
-    height: 100%;
-}
-
-.title {
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 0;
 }
