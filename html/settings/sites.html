@@ -4,27 +4,35 @@
     <meta charset="UTF-8">
     <title>Settings</title>
     <link rel="stylesheet" href="../../css/style.css">
-
     <link rel="stylesheet" href="../../css/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/libs/bootstrap-theme.min.css">
 </head>
-<body class="settings">
-    <p class="header" style="margin-bottom: 0;">Settings</p>
-    <p class="subheader">Sites</p>
-    <hr/>
-    <div class="navbar">
-        <ul>
-            <li><a  href="../settings/index.html"><p class="item">Index</p></a></li>
-            <li><a class="active" href="../settings/sites.html"><p class="item">Sites</p></a></li>
-            <li><a href="../html/settings.html"><p class="item">Credits</p></a></li>
-        </ul>
+<body style="margin-left: 15em; margin-right: 15em; background-color: ghostwhite; border: 1px solid skyblue;">
+    <div class="modal-header">
+        <h2 style="font-weight: bolder">Settings</h2>
+        <h3 style="margin-top: 0;">
+            <i class="glyphicon glyphicon-chevron-right" style="font-size: 0.75em;"></i>
+            Index
+        </h3>
     </div>
-    <div class="content">
-        <p class="title">Add, edit, and remove blocked sites</p>
-        <textarea rows="25" cols="50"></textarea>
-        <br>
-        <button class="btn-lg" type="submit" value="submit">Submit</button>
-        <br>
-        <img src="../../loading.gif">
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3">
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a href="../settings/index.html">Index</a></li>
+                    <li class="active"><a href="../settings/sites.html">Sites</a></li>
+                    <li><a href="#">Credits</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-5">
+                <h2 style="margin-top: 0;">Add, edit, or remove blocked sites</h2>
+                <textarea class="form-control" rows="10"></textarea>
+                <br>
+                <button type="submit" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-save"></i>Save</button>
+            </div>
+        </div>
     </div>
+<br>
 </body>
 </html>

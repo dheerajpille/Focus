@@ -31,7 +31,7 @@ a {
     padding: 1.5em 1.5em 1.5em 1.5em;
     background-color: antiquewhite;
     border-radius: 0.25em;
-    box-shadow: 0 0.5em 0 0 lightslategrey;
+    box-shadow: 0 0.5em 0 0 dimgrey;
     transition: 0.25s;
 }
 
