@@ -23,6 +23,12 @@ li a {
     transition: 0.5s;
 }
 
+.github {
+    position: absolute;
+    bottom: 30%;
+    right: 7.5%;
+}
+
 .card {
     width: 15em;
     padding: 1.5em 1.5em 1.5em 1.5em;
