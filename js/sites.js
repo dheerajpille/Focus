@@ -14,7 +14,7 @@ $(document).ready(function(){
             var values = result.sites.split(/\s+/);
             values.forEach(function(index){
                 $('div.col-xs-5 ul').append(
-                    '<li class="list-group-item visible-lg-inline-block">'+index+'</li>'
+                    '<li class="list-group-item" style="display: block; word-break:break-all; padding: 1em;">'+index+'</li>'
                 );
             });
         });
