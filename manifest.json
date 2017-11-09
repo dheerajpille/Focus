@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Focus",
-  "description": "Lightweight site blocking extension",
+  "description": "Bootstrap website blocking browser extension",
   "version": "1.0",
   "homepage_url": "https://github.com/dheerajpille/Focus",
   "author": "Dheeraj Pille",
