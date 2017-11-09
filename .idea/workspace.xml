@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="49bf6241-63a9-46dc-b645-073a1b61eb46" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/settings/sites.html" afterPath="$PROJECT_DIR$/html/settings/sites.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sites.js" afterPath="$PROJECT_DIR$/js/sites.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -80,8 +79,8 @@
       <file leaf-file-name="sites.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/sites.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="51">
+              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -251,12 +250,12 @@
       <workItem from="1509962596264" duration="24276000" />
       <workItem from="1510164850529" duration="614000" />
       <workItem from="1510165642143" duration="52000" />
-      <workItem from="1510165725956" duration="30360000" />
+      <workItem from="1510165725956" duration="31446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55302000" />
+    <option name="totallyTimeSpent" value="56388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -667,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/sites.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="51">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,6 @@
 $(document).ready(function(){
     chrome.storage.local.get('sites', function(result){
-        var values = result.sites;
+        var values = result.sites.split(/\s+/).join('\n');
         $('textarea').val(values);
     });
     $('button').on('click',function(){
