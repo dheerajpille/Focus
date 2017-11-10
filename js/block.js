@@ -8,6 +8,8 @@ $(document).ready(function(){
         values.forEach(function (index) {
             if (index !== "" && site.indexOf(index) > -1) {
                 block = true;
+                $(location).attr('href', chrome.runtime.getURL('html/block.html'));
+                console.log(chrome.runtime.getURL('html/block.html'));
             }
         });
         if (!block) {
