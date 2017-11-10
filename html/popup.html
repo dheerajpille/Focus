@@ -5,19 +5,28 @@
     <title>Title</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/libs/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/libs/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../css/libs/bootstrap-switch.min.css">
 </head>
 <script src="../js/libs/jquery-3.2.1.min.js"></script>
+<script src="../js/libs/bootstrap-switch.min.js"></script>
 <body>
     <a class="no-decorations" href="https://github.com/dheerajpille/Focus">
-        <div class="modal-header" style="position: relative; border-bottom: 0.1em solid skyblue;">
+        <div class="modal-header" style="position: relative; border-bottom: 0.1em solid royalblue;">
             <h2 style="font-weight: bolder">
                 F<i class="glyphicon glyphicon-eye-close" style="font-size: 0.625em;"></i>cus
             </h2><img class="github" src="https://assets-cdn.github.com/favicon.ico">
         </div>
     </a>
     <br>
-    <a class="no-decorations" href="../html/settings/index.html">
+    <div class="text-center">
+        <input type="checkbox"
+               data-on-text='<i class="glyphicon glyphicon-eye-close" style="font-size: 1em;"></i>'
+               data-off-text='<i class="glyphicon glyphicon-eye-open" style="font-size: 1em;"></i>'
+               data-size="large"
+               data-handle-width="100%">
+    </div>
+    <br>
+    <a class="no-decorations" href="../html/settings/index.html" style="margin-top: 1em;">
         <div class="card">
             <h3 class="option"><i class="glyphicon glyphicon-send" style="font-size: 0.875em;"></i> Settings</h3>
         </div>
