@@ -1,18 +1,19 @@
 document.documentElement.style.visibility='hidden';
 
-$(document).ready(function(){
+$(document).ready(function() {
     var site = window.location.href;
-    chrome.storage.local.get('sites', function(result) {
+    chrome.storage.local.get('sites', function (result) {
         var values = result.sites;
         var block = false;
         values.forEach(function (index) {
             console.log(Date.now());
             if (index !== "" && site.indexOf(index) > -1) {
-                block=true;
+                block = true;
                 $(location).attr('href', chrome.runtime.getURL('html/block.html'));
             }
         });
         if (!block) {
-            document.documentElement.style.visibility='visible';
-        }});
+            document.documentElement.style.visibility = 'visible';
+        }
+    });
 });
