@@ -1,10 +1,10 @@
 $(document).ready(function(){
     if ($('textarea').get(0)) {
         chrome.storage.local.get('sites', function(result){
-            var values = result.sites;
-            if (values !== undefined) {
-                values = values.join('\n');
-                $('textarea').val(values);
+            var sites = result.sites;
+            if (sites !== undefined) {
+                sites = sites.join('\n');
+                $('textarea').val(sites);
             }
         });
         $('button').on('click',function(){
@@ -14,13 +14,13 @@ $(document).ready(function(){
         });
     } else if ($('div.col-xs-6 ul').get(0)) {
         chrome.storage.local.get('sites', function(result){
-            var values = result.sites;
-            if (values === undefined || values[0] === "") {
+            var sites = result.sites;
+            if (sites === undefined || sites[0] === "") {
                 $('div.col-xs-6 ul').append(
                     '<li class="list-group-item" style="display: block; word-break: break-all;">No websites blocked</li>'
                 );
             } else {
-                values.forEach(function(index){
+                sites.forEach(function(index){
                     $('div.col-xs-6 ul').append(
                         '<li class="list-group-item" style="display: block; word-break: break-all;">'+index+'</li>'
                     );
