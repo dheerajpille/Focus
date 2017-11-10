@@ -6,14 +6,13 @@ $(document).ready(function(){
         var values = result.sites;
         var block = false;
         values.forEach(function (index) {
+            console.log(Date.now());
             if (index !== "" && site.indexOf(index) > -1) {
-                block = true;
+                block=true;
                 $(location).attr('href', chrome.runtime.getURL('html/block.html'));
-                console.log(chrome.runtime.getURL('html/block.html'));
             }
         });
         if (!block) {
-            document.documentElement.style.visibility='';
-        }
-    });
+            document.documentElement.style.visibility='visible';
+        }});
 });
