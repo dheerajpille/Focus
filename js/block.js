@@ -3,9 +3,9 @@ $(document).ready(function(){
     chrome.storage.local.get('sites', function(result) {
         var values = result.sites;
         values.forEach(function (index) {
-            if (site.indexOf(index) !== -1) {
+            if (index !== "" && site.indexOf(index) !== -1) {
                 $('head').empty();
-                $('head').append('<title>Blocked website</title>');
+                $('head').append('<title>Blocked sites</title>');
                 $('head').append(
                     '<link rel="stylesheet" ' +
                     'href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">'

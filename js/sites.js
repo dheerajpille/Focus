@@ -2,6 +2,7 @@ $(document).ready(function(){
     if ($('textarea').get(0)) {
         chrome.storage.local.get('sites', function(result){
             var values = result.sites.join('\n');
+            console.log(values);
             $('textarea').val(values);
         });
         $('button').on('click',function(){
