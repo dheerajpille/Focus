@@ -10,7 +10,7 @@
 
   "content_scripts": [
     {
-      "js": ["js/libs/jquery-3.2.1.min.js", "js/block.js"],
+      "js": ["js/libs/jquery-3.2.1.min.js", "js/block.js", "js/toggle.js"],
       "matches": ["<all_urls>"],
       "run_at": "document_start"
     }
