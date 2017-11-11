@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49bf6241-63a9-46dc-b645-073a1b61eb46" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/icon128.png" afterPath="$PROJECT_DIR$/icons/icon128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/icon16.png" afterPath="$PROJECT_DIR$/icons/icon16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/icon48.png" afterPath="$PROJECT_DIR$/icons/icon48.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.json" afterPath="$PROJECT_DIR$/manifest.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -187,12 +188,12 @@
       <workItem from="1509962596264" duration="24276000" />
       <workItem from="1510164850529" duration="614000" />
       <workItem from="1510165642143" duration="52000" />
-      <workItem from="1510165725956" duration="78367000" />
+      <workItem from="1510165725956" duration="79028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103309000" />
+    <option name="totallyTimeSpent" value="103970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
