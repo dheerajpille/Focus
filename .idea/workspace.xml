@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49bf6241-63a9-46dc-b645-073a1b61eb46" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/icon128.png" afterPath="$PROJECT_DIR$/icons/icon128.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/icon16.png" afterPath="$PROJECT_DIR$/icons/icon16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/icon48.png" afterPath="$PROJECT_DIR$/icons/icon48.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/block.js" afterPath="$PROJECT_DIR$/js/block.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="122">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="block.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/block.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -84,11 +92,11 @@
         <option value="$PROJECT_DIR$/js/sites.js" />
         <option value="$PROJECT_DIR$/html/popup.html" />
         <option value="$PROJECT_DIR$/js/toggle.js" />
-        <option value="$PROJECT_DIR$/js/block.js" />
         <option value="$PROJECT_DIR$/html/block.html" />
         <option value="$PROJECT_DIR$/html/settings/index.html" />
         <option value="$PROJECT_DIR$/html/settings/sites.html" />
         <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/js/block.js" />
       </list>
     </option>
   </component>
@@ -131,6 +139,11 @@
               <item name="Focus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Focus" type="462c0819:PsiDirectoryNode" />
               <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Focus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Focus" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,12 +201,12 @@
       <workItem from="1509962596264" duration="24276000" />
       <workItem from="1510164850529" duration="614000" />
       <workItem from="1510165642143" duration="52000" />
-      <workItem from="1510165725956" duration="79028000" />
+      <workItem from="1510165725956" duration="80844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103970000" />
+    <option name="totallyTimeSpent" value="105786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -609,14 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/block.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/settings/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -686,8 +691,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="122">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/block.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding />
         </state>
       </provider>
